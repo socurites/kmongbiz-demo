@@ -40,7 +40,7 @@ def load_category_data():
 # 기업 정보 조회 함수
 def get_company_info(company_name, business_number):
     # 웹 검색을 통한 기업 정보 조회
-    search_query = f'"{company_name}\t{business_number}"에 대한 기업의 상세한 설명(주요 사업분야 및 핵심 제품 등 포함)과 홈페이지 URL. 설명과 url은 json format으로 정리할 것.'
+    search_query = f'"{company_name}\t{business_number}"에 대한 기업의 최대한 상세한 설명(핵심 사업,제품, 주력상품,고객층, 미션, 비전, 포트폴리오, 최근 중요 홍보기사내용)과 홈페이지 URL. 설명, url는 json format으로 정리할 것.'
     search_results = search_web(search_query)
     
     try:
