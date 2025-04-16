@@ -1,0 +1,21 @@
+{
+  "name": "kmongbiz-demo",
+  "version": "1.0.0",
+  "description": "크몽 Biz 기업 구매자 카테고리 추천 시스템",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.0",
+    "@langchain/openai": "^0.0.5",
+    "langgraph": "^0.0.10",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5"
+  }
+} 
