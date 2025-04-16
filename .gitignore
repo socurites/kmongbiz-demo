@@ -150,4 +150,7 @@ dmypy.json
 cython_debug/
 
 # VSCode files
-.vscode/ 
+.vscode/
+
+# Streamlit configuration
+/.streamlit/ 

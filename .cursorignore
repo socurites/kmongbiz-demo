@@ -15,4 +15,7 @@ dist/
 env/
 venv/
 ENV/
-.vscode/ 
+.vscode/
+
+# Streamlit configuration
+/.streamlit/ 
